@@ -1,0 +1,12 @@
+version: "3"
+services:
+  text2vec-bibliothecarius:
+    image: "python:3.9-buster"
+    volumes:
+      - ./main.py:/app/main.py
+      - ./text2vec-base-chinese:/app/text2vec-base-chinese
+      - ./requirements.txt:/app/requirements.txt
+      - ./run.sh:/app/run.sh
+    ports:
+      - "8001:8880"
+    command: bash /app/run.sh
