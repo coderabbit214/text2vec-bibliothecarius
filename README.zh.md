@@ -4,6 +4,13 @@
 
 ## 快速开始
 
+### 下载本项目
+
+```bash
+git clone git@github.com:coderabbit214/text2vec-bibliothecarius.git
+cd text2vec-bibliothecarius
+```
+
 ### [下载模型](https://huggingface.co/shibing624/text2vec-base-chinese/tree/main)
 
 模型下载后放入`./text2vec-base-chinese`文件夹中

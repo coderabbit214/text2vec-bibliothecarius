@@ -4,6 +4,13 @@
 
 ## Quick Start
 
+###  Download this project
+
+```bash
+git clone git@github.com:coderabbit214/text2vec-bibliothecarius.git
+cd text2vec-bibliothecarius
+```
+
 ### [Download Model](https://huggingface.co/shibing624/text2vec-base-chinese/tree/main)
 
 After downloading the model, place it in the `./text2vec-base-chinese` folder.
