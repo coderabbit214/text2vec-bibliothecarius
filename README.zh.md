@@ -35,7 +35,7 @@ total 799408
 docker-compose up -d
 ```
 
-### 进行测试测试
+### 进行测试
 
 ```bash
 curl --location --request POST 'http://127.0.0.1:8001/vector' \
