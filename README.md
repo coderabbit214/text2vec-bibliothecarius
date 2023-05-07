@@ -41,7 +41,7 @@ docker-compose up -d
 curl --location --request POST 'http://127.0.0.1:8001/vector' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "input":"你好"
+    "input":"hi"
 }'
 ```
 
